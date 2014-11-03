@@ -1,0 +1,15 @@
+//http://www.2cto.com/kf/201408/323486.html
+class Solution {
+public:
+    int singleNumber(int A[], int n) {
+        int one = 0, two = 0, three = 0;
+        for (int i = 0; i < n; i++){
+            two |= one & A[i];      //be careful
+            one ^= A[i];
+            three = one & two;
+            one &= ~three;
+            two &= ~three;
+        }
+        return one;
+    }
+};
