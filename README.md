@@ -33,6 +33,8 @@ The C++/Java solutions of LeetCode problems
 
 [PalindromePartitioning](https://github.com/CalvinZhu/leetcode/blob/master/src/PalindromePartitioning.cpp)
 
+[PalindromePartitioningII](https://github.com/CalvinZhu/leetcode/blob/master/src/PalindromePartitioningII.cpp)
+
 [ReorderList](https://github.com/CalvinZhu/leetcode/blob/master/src/ReorderList.cpp)
 
 [ReverseWordsinaString](https://github.com/CalvinZhu/leetcode/blob/master/src/ReverseWordsinaString.java)
